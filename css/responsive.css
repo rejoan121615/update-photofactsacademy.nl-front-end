@@ -2,1268 +2,1395 @@
 /* CSS Document */
 
 @media only screen and (min-width: 960px) and (max-width: 1289px) {
-    .cours-header p{
-        margin-left: 10px;
-    }
+  .cours-header p {
+    margin-left: 10px;
+  }
 
-    .searchbox{
-        margin-right: 20px;
-    }
-    .sort-box{
-        margin-right: 20px!important;
-    }
+  .searchbox {
+    margin-right: 20px;
+  }
+  .sort-box {
+    margin-right: 20px !important;
+  }
 
-    .video-container            { width: 400px; height: 222px; margin-left: 20px; float: left; }
-    .proefperiode-container     { width: 400px; height: 222px; margin-left: 20px; float: left; }
-    .vimeoiframe                { width: 100%; height: 700px; }
+  .video-container {
+    width: 400px;
+    height: 222px;
+    margin-left: 20px;
+    float: left;
+  }
+  .proefperiode-container {
+    width: 400px;
+    height: 222px;
+    margin-left: 20px;
+    float: left;
+  }
+  .vimeoiframe {
+    width: 100%;
+    height: 700px;
+  }
 
-    header .nav-btn {
-        display: none;
-    }
+  header .nav-btn {
+    display: none;
+  }
 
-    header {
-        width: 100%;
-    }
+  header {
+    width: 100%;
+  }
 
-    .topmenu-con {
-        width: 100%;
-    }
+  .topmenu-con {
+    width: 100%;
+  }
 
-    .banner section {
-        width: 98%;
-        padding: 20px 1% 0 1%;
-    }
+  .banner section {
+    width: 98%;
+    padding: 20px 1% 0 1%;
+  }
 
-    .banner section .left {
-        width: 65%;
-    }
+  .banner section .left {
+    width: 65%;
+  }
 
-    .banner section .right {
-        width: 35%;
-    }
+  .banner section .right {
+    width: 35%;
+  }
 
-    .banner section .vidright {
-        width: 450px;
-    }
+  .banner section .vidright {
+    width: 450px;
+  }
 
-    .banner section .left h1 {
-        padding: 20px 0 45px 10px;
-    }
+  .banner section .left h1 {
+    padding: 20px 0 45px 10px;
+  }
 
-    .banimgdv {
-        width: 48%;
-    }
+  .banimgdv {
+    width: 48%;
+  }
 
-    .hideonphone {
-        display: inline;
-    }
+  .hideonphone {
+    display: inline;
+  }
 
-    .thumboverlay {
-        display: none;
-    }
+  .thumboverlay {
+    display: none;
+  }
 
-    .lightro {
-        width: 35%;
-        float: left;
-    }
+  .lightro {
+    width: 35%;
+    float: left;
+  }
 
-    .banner section .right aside {
-        margin: 0px auto;
-        width: 300px;
-    }
+  .banner section .right aside {
+    margin: 0px auto;
+    width: 300px;
+  }
 
-    .prijsblok {
-        width: 960px;
-    }
+  .prijsblok {
+    width: 960px;
+  }
 
-    .midwhi {
-        width: 100%;
-    }
+  .midwhi {
+    width: 100%;
+  }
 
-    .midwhi section {
-        width: 98%;
-        padding-left: 1%;
-        padding-right: 1%;
-    }
+  .midwhi section {
+    width: 98%;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
 
-    .midwhi section .left {
-        width: 50%;
-    }
+  .midwhi section .left {
+    width: 50%;
+  }
 
-    .midwhi section .left aside {
-        width: 70%;
-    }
+  .midwhi section .left aside {
+    width: 70%;
+  }
 
-    .midwhi section .left img {
-        width: 30%;
-    }
+  .midwhi section .left img {
+    width: 30%;
+  }
 
-    .midwhi section .right aside {
-        width: 70%;
-    }
+  .midwhi section .right aside {
+    width: 70%;
+  }
 
-    .midwhi section .right {
-        width: 50%;
-        margin: 0px;
-    }
+  .midwhi section .right {
+    width: 50%;
+    margin: 0px;
+  }
 
-    .midwhi section .cursus-left {
-        width: 30%;
-        text-align: center;
-    }
+  .midwhi section .cursus-left {
+    width: 30%;
+    text-align: center;
+  }
 
-    .midwhi section .cursus-left img {
-        width: 100%;
-        max-width: 500px;
-        height: auto;
-    }
+  .midwhi section .cursus-left img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+  }
 
-    .midwhi section .cursus-right {
-        width: 70%;
-        margin: 0px;
-    }
+  .midwhi section .cursus-right {
+    width: 70%;
+    margin: 0px;
+  }
 
-    .twocolumn {
-        width: 100%;
-    }
+  .twocolumn {
+    width: 100%;
+  }
 
-    .twocolumn section {
-        width: 98%;
-        padding-left: 1%;
-        padding-right: 1%;
-    }
+  .twocolumn section {
+    width: 98%;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
 
-    .twocolumn section .left, .twocolumn section .right {
-        width: 50%;
-        float:  left;
-    }
+  .twocolumn section .left,
+  .twocolumn section .right {
+    width: 50%;
+    float: left;
+  }
 
-    .twocolumn section .left aside, .twocolumn section .right aside {
-        width: 90% !important;
-    }
+  .twocolumn section .left aside,
+  .twocolumn section .right aside {
+    width: 90% !important;
+  }
 
-    .twocolumn section .right aside {
-        float:  right;
-    }
+  .twocolumn section .right aside {
+    float: right;
+  }
 
-    .blockelements {
-        width: 98%;
-        padding: 35px 1%;
-    }
+  .blockelements {
+    width: 98%;
+    padding: 35px 1%;
+  }
 
-    .blockelements.smaller {
-        width: 75%;
-    }
+  .blockelements.smaller {
+    width: 75%;
+  }
 
-    .categories-menu {
-        width: 23%;
-    }
+  .categories-menu {
+    width: 23%;
+  }
 
-    .cours-header {
-        width: 75%;
-    }
+  .cours-header {
+    width: 75%;
+  }
 
-    .blockelements aside {
-        margin-right: 1%;
-    }
+  .blockelements aside {
+    margin-right: 1%;
+  }
 
-    /* .playbutton {
+  /* .playbutton {
         width: 61px;
         height: 61px;
     } */
 
-    .klan section {
-        width: 100%;
-    }
+  .klan section {
+    width: 100%;
+  }
 
-    .foot footer {
-        width: 98%;
-        padding: 0 1%;
-    }
+  .foot footer {
+    width: 98%;
+    padding: 0 1%;
+  }
 
-    .videoc {
-        width: 96%;
-        padding: 34px 2%;
-    }
+  .videoc {
+    width: 96%;
+    padding: 34px 2%;
+  }
 
-    .fashot section {
-        width: 98%;
-        padding: 0 1% 20px 1%;
-    }
+  .fashot section {
+    width: 98%;
+    padding: 0 1% 20px 1%;
+  }
 
-    .fashot {
-        width: 100%;
-    }
+  .fashot {
+    width: 100%;
+  }
 
-    .fashot section .left {
-        width: 60%;
-    }
+  .fashot section .left {
+    width: 60%;
+  }
 
-    .opstell {
-        min-height: 335px;
-    }
+  .opstell {
+    min-height: 335px;
+  }
 
-    topmenu-con
-    .fashot section .right {
-        width: 35%;
-        padding: 0 10px;
-        min-height: 335px;
-    }
+  topmenu-con .fashot section .right {
+    width: 35%;
+    padding: 0 10px;
+    min-height: 335px;
+  }
 
-    .ovedeta {
-        padding: 15px 0 0 0;
-    }
+  .ovedeta {
+    padding: 15px 0 0 0;
+  }
 
-    .opstell article {
-        width: 57%;
-        padding: 20px 0 0 12px;
-    }
+  .opstell article {
+    width: 57%;
+    padding: 20px 0 0 12px;
+  }
 
-    .hoocont {
-        padding: 20px 5px 0;
-    }
+  .hoocont {
+    padding: 20px 5px 0;
+  }
 
-    .hoocont dl dt {
-        width: 190px;
-    }
+  .hoocont dl dt {
+    width: 190px;
+  }
 
-    .rigcodva {
-        width: 35%;
-        padding: 15px 10px 5px;
-    }
+  .rigcodva {
+    width: 35%;
+    padding: 15px 10px 5px;
+  }
 
-    .ventwar {
-        padding: 0 2%;
-        width: 96%;
-    }
+  .ventwar {
+    padding: 0 2%;
+    width: 96%;
+  }
 
-    .fodvare {
-        padding: 0 2%;
-        width: 96%;
-    }
+  .fodvare {
+    padding: 0 2%;
+    width: 96%;
+  }
 
-    .fashot {
-        padding-bottom: 10px;
-    }
+  .fashot {
+    padding-bottom: 10px;
+  }
 
-    .fodvare section {
-        width: 100%;
-    }
+  .fodvare section {
+    width: 100%;
+  }
 
-    .ventwar article {
-        width: 100%;
-    }
+  .ventwar article {
+    width: 100%;
+  }
 
-    .conthofu {
-        width: 100%;
-    }
+  .conthofu {
+    width: 100%;
+  }
 
-    .instdc {
-        width: 67%;
-    }
+  .instdc {
+    width: 67%;
+  }
 
-    .hoofd {
-        width: 48%;
-    }
+  .hoofd {
+    width: 48%;
+  }
 
-    .appart {
-        width: 48%;
-    }
+  .appart {
+    width: 48%;
+  }
 
-    .checklist {
-        font-size: 16px;
-    }
-    .questext               { width: 700px; height: 200px; }
-    .youtubevid > iframe    { width:100%; }
+  .checklist {
+    font-size: 16px;
+  }
+  .questext {
+    width: 700px;
+    height: 200px;
+  }
+  .youtubevid > iframe {
+    width: 100%;
+  }
 }
 
 @media only screen and (min-width: 767px) and (max-width: 959px) {
-    header {
-        width: 100%;
-    }
-
-    .topmenu-con {
-        width: 100%;
-    }
-
-    .logodv {
-        width: 98%;
-        padding: 10px 0 0 2%;
-    }
-
-    .logodv img {
-        max-width: 70%;
-    }
-
-    header .nav-btn {
-        display: block;
-        z-index: 99;
-    }
-
-    nav {
-        width: 180px;
-        padding: 7px 0 0 0;
-        display: none;
-    }
-
-    .menuco li {
-        width: 100%;
-        padding: 5px 10px 0 0;
-        border-bottom: none;
-    }
-
-    .menuco li a {
-        padding-bottom: 10px;
-    }
-
-    .menuco li a:hover {
-        border: none;
-        text-decoration: underline;
-    }
-
-    .menuco li a.active {
-        border-bottom: none;
-    }
-
-    .menuco li:hover {
-        border-bottom: none;
-    }
-
-    .menuco {
-        background: #446da3;
-        padding-left: 10px;
-    }
-
-    .prijsblok {
-        width: 100%;
-    }
-
-    .video-container        { margin-left: 10px; width: 400px; height: 222px; float: left; }
-    .proefperiode-container { margin-left: 10px; width: 400px; height: 222px; float: left; }
-    .vimeoiframe            { width: 100%; height: 400px; }
-
-    .questext               { width: 700px; height: 200px; }
-
-    .testimonial {
-        width: 100%;
-    }
-
-    .hideonphone {
-        display: inline;
-    }
-
-    .banner section {
-        width: 98%;
-        padding: 20px 1% 0 1%;
-    }
-
-    .banner section .left {
-        width: 65%;
-    }
-
-    .banner section .right {
-        width: 35%;
-    }
-
-    .banner section .vidright {
-        width: 350px;
-    }
-
-    .banner section .left h1 {
-        padding: 10px 0 20px 10px;
-    }
-
-    .banimgdv {
-        width: 48%;
-        padding: 0;
-    }
-
-    .thumboverlay {
-        display: none;
-    }
-
-    .lightro {
-        display: none;
-    }
-
-    .banner section .right aside {
-        margin: 0px auto;
-        width: 250px;
-        padding: 10px 5px;
-    }
-
-    .twocolumn {
-        width: 100%;
-    }
-
-    .twocolumn section {
-        width: 98%;
-        padding-left: 1%;
-        padding-right: 1%;
-    }
-
-    .twocolumn section .left, .twocolumn section .right {
-        width: 50%;
-        float:  left;
-    }
-
-    .twocolumn section .left aside, .twocolumn section .right aside {
-        width: 90% !important;
-    }
-
-    .twocolumn section .right aside {
-        float:  right;
-    }
-
-    .midwhi {
-        width: 100%;
-    }
-
-    .midwhi section {
-        width: 98%;
-        padding-left: 1%;
-        padding-right: 1%;
-    }
-
-    .midwhi section .left {
-        width: 50%;
-    }
-
-    .midwhi section .left aside {
-        width: 70%;
-    }
-
-    .midwhi section .left img {
-        width: 30%;
-    }
-
-    .midwhi section .right {
-        width: 50%;
-        margin-left: 0px;
-    }
-
-    .midwhi section .right aside {
-        width: 70%;
-    }
-
-    .midwhi section .cursus-left {
-        width: 50%;
-    }
-
-    .midwhi section .cursus-left img {
-        width: 100%;
-        max-width: 450px;
-        height: auto;
-    }
-
-    .midwhi section .cursus-right {
-        width: 50%;
-        margin: 0px;
-    }
-
-    .mid800 {
-        width: 100%;
-    }
-
-    .mid800 section {
-        width: 98%;
-        padding-left: 1%;
-        padding-right: 1%;
-    }
-
-    .blockelements.smaller,
-    .blockelements {
-        width: 98%;
-        padding: 35px 1%;
-    }
-
-    .blockelements aside {
-        margin-right: 1%;
-    }
-
-    .playbutton {
-        margin-left: 45%;
-        margin-top: -50%;
-    } 
-
-    .klan section {
-        width: 100%;
-    }
-
-    .intfacd {
-        width: 100%;
-    }
-
-    .contest {
-        width: auto;
-    }
-
-    .rightinf {
-        width: 79%;
-    }
-
-    .foot footer {
-        width: 98%;
-        padding: 0 1%;
-    }
-
-    .videoc {
-        width: 96%;
-        padding: 34px 2%;
-    }
-
-    .fashot {
-        width: 100%;
-    }
-
-    .fashot section {
-        width: 98%;
-        padding: 0 1% 20px 1%;
-    }
-
-    .opstell {
-        margin-bottom: 10px;
-    }
-
-    .opstell article {
-        width: 60%;
-    }
-
-    .fashot section .left {
-        width: 100%;
-    }
-
-    .fashot section .right {
-        width: 97%;
-        padding: 15px 10px 50px;
-    }
-
-    .rigcodva {
-        width: 97%;
-        padding: 15px 10px 10px;
-        margin-top: 10px;
-    }
-
-    .hoocont dl dt {
-        width: 240px;
-    }
-
-    .appart {
-        width: 48%;
-    }
-
-    .apparcont {
-        padding: 20px 20px 0;
-    }
-
-    .ventwar article {
-        width: 100%;
-    }
-
-    .conthofu {
-        width: 100%;
-    }
-
-    .rigcont {
-        width: 98%;
-        padding: 0;
-    }
-
-    .fodvare section {
-        width: 100%;
-    }
-
-    .ventwar {
-        padding: 0 2%;
-        width: 96%;
-    }
-
-    .fodvare {
-        padding: 0 2%;
-        width: 96%;
-        padding-top: 10px;
-        padding-bottom: 20px;
-    }
-
-    .fashot {
-        padding-bottom: 10px;
-    }
-
-    .jourec {
-        width: 60%;
-    }
-
-    .limitedwidth {
-        width: 100%
-    }
-
-    .checklist {
-        font-size: 15px;
-    }
-
-    /* Elements pagina */
-    .page_ps_elements .banner section .left {
-        float: none;
-        width: auto;
-    }
-
-    .page_ps_elements .banner section .left h1 {
-        padding: 10px 0 20px 10px;
-    }
-
-    .page_ps_elements .banner section .left p {
-        padding-left: 0 !important;
-        text-align: center;
-    }
-
-    .page_ps_elements .banner .vidright {
-        width: 500px !important;
-        margin: 10px auto !important;
-        float: none !important;
-    }
-
-    .page_ps_elements .banner .checklist {
-        clear: both;
-        margin-top: 40px;
-        float: left;
-        color: #454e5c;
-    }
-
-    .page_ps_elements .w940, .page_ps_elements .w960 {
-        width: 100%;
-    }
-
-    .page_ps_elements .w960 {
-        margin-left: 0px !important;
-    }
-
-    .page_ps_elements .textbutton, .page_ps_elements .textbutton2 {
-        font-size: 12px;
-        padding: 12px;
-        margin-top: 10px;
-        width: auto;
-        display: inline-block;
-    }
-
-    ul.ledenlijst { columns: 4; -webkit-columns: 4; -moz-columns: 4; }
-
-
+  header {
+    width: 100%;
+  }
+
+  .topmenu-con {
+    width: 100%;
+  }
+
+  .logodv {
+    width: 98%;
+    padding: 10px 0 0 2%;
+  }
+
+  .logodv img {
+    max-width: 70%;
+  }
+
+  header .nav-btn {
+    display: block;
+    z-index: 99;
+  }
+
+  nav {
+    width: 180px;
+    padding: 7px 0 0 0;
+    display: none;
+  }
+
+  .menuco li {
+    width: 100%;
+    padding: 5px 10px 0 0;
+    border-bottom: none;
+  }
+
+  .menuco li a {
+    padding-bottom: 10px;
+  }
+
+  .menuco li a:hover {
+    border: none;
+    text-decoration: underline;
+  }
+
+  .menuco li a.active {
+    border-bottom: none;
+  }
+
+  .menuco li:hover {
+    border-bottom: none;
+  }
+
+  .menuco {
+    background: #446da3;
+    padding-left: 10px;
+  }
+
+  .prijsblok {
+    width: 100%;
+  }
+
+  .video-container {
+    margin-left: 10px;
+    width: 400px;
+    height: 222px;
+    float: left;
+  }
+  .proefperiode-container {
+    margin-left: 10px;
+    width: 400px;
+    height: 222px;
+    float: left;
+  }
+  .vimeoiframe {
+    width: 100%;
+    height: 400px;
+  }
+
+  .questext {
+    width: 700px;
+    height: 200px;
+  }
+
+  .testimonial {
+    width: 100%;
+  }
+
+  .hideonphone {
+    display: inline;
+  }
+
+  .banner section {
+    width: 98%;
+    padding: 20px 1% 0 1%;
+  }
+
+  .banner section .left {
+    width: 65%;
+  }
+
+  .banner section .right {
+    width: 35%;
+  }
+
+  .banner section .vidright {
+    width: 350px;
+  }
+
+  .banner section .left h1 {
+    padding: 10px 0 20px 10px;
+  }
+
+  .banimgdv {
+    width: 48%;
+    padding: 0;
+  }
+
+  .thumboverlay {
+    display: none;
+  }
+
+  .lightro {
+    display: none;
+  }
+
+  .banner section .right aside {
+    margin: 0px auto;
+    width: 250px;
+    padding: 10px 5px;
+  }
+
+  .twocolumn {
+    width: 100%;
+  }
+
+  .twocolumn section {
+    width: 98%;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+
+  .twocolumn section .left,
+  .twocolumn section .right {
+    width: 50%;
+    float: left;
+  }
+
+  .twocolumn section .left aside,
+  .twocolumn section .right aside {
+    width: 90% !important;
+  }
+
+  .twocolumn section .right aside {
+    float: right;
+  }
+
+  .midwhi {
+    width: 100%;
+  }
+
+  .midwhi section {
+    width: 98%;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+
+  .midwhi section .left {
+    width: 50%;
+  }
+
+  .midwhi section .left aside {
+    width: 70%;
+  }
+
+  .midwhi section .left img {
+    width: 30%;
+  }
+
+  .midwhi section .right {
+    width: 50%;
+    margin-left: 0px;
+  }
+
+  .midwhi section .right aside {
+    width: 70%;
+  }
+
+  .midwhi section .cursus-left {
+    width: 50%;
+  }
+
+  .midwhi section .cursus-left img {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+  }
+
+  .midwhi section .cursus-right {
+    width: 50%;
+    margin: 0px;
+  }
+
+  .mid800 {
+    width: 100%;
+  }
+
+  .mid800 section {
+    width: 98%;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+
+  .blockelements.smaller,
+  .blockelements {
+    width: 98%;
+    padding: 35px 1%;
+  }
+
+  .blockelements aside {
+    margin-right: 1%;
+  }
+
+  .playbutton {
+    margin-left: 45%;
+    margin-top: -50%;
+  }
+
+  .klan section {
+    width: 100%;
+  }
+
+  .intfacd {
+    width: 100%;
+  }
+
+  .contest {
+    width: auto;
+  }
+
+  .rightinf {
+    width: 79%;
+  }
+
+  .foot footer {
+    width: 98%;
+    padding: 0 1%;
+  }
+
+  .videoc {
+    width: 96%;
+    padding: 34px 2%;
+  }
+
+  .fashot {
+    width: 100%;
+  }
+
+  .fashot section {
+    width: 98%;
+    padding: 0 1% 20px 1%;
+  }
+
+  .opstell {
+    margin-bottom: 10px;
+  }
+
+  .opstell article {
+    width: 60%;
+  }
+
+  .fashot section .left {
+    width: 100%;
+  }
+
+  .fashot section .right {
+    width: 97%;
+    padding: 15px 10px 50px;
+  }
+
+  .rigcodva {
+    width: 97%;
+    padding: 15px 10px 10px;
+    margin-top: 10px;
+  }
+
+  .hoocont dl dt {
+    width: 240px;
+  }
+
+  .appart {
+    width: 48%;
+  }
+
+  .apparcont {
+    padding: 20px 20px 0;
+  }
+
+  .ventwar article {
+    width: 100%;
+  }
+
+  .conthofu {
+    width: 100%;
+  }
+
+  .rigcont {
+    width: 98%;
+    padding: 0;
+  }
+
+  .fodvare section {
+    width: 100%;
+  }
+
+  .ventwar {
+    padding: 0 2%;
+    width: 96%;
+  }
+
+  .fodvare {
+    padding: 0 2%;
+    width: 96%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+
+  .fashot {
+    padding-bottom: 10px;
+  }
+
+  .jourec {
+    width: 60%;
+  }
+
+  .limitedwidth {
+    width: 100%;
+  }
+
+  .checklist {
+    font-size: 15px;
+  }
+
+  /* Elements pagina */
+  .page_ps_elements .banner section .left {
+    float: none;
+    width: auto;
+  }
+
+  .page_ps_elements .banner section .left h1 {
+    padding: 10px 0 20px 10px;
+  }
+
+  .page_ps_elements .banner section .left p {
+    padding-left: 0 !important;
+    text-align: center;
+  }
+
+  .page_ps_elements .banner .vidright {
+    width: 500px !important;
+    margin: 10px auto !important;
+    float: none !important;
+  }
+
+  .page_ps_elements .banner .checklist {
+    clear: both;
+    margin-top: 40px;
+    float: left;
+    color: #454e5c;
+  }
+
+  .page_ps_elements .w940,
+  .page_ps_elements .w960 {
+    width: 100%;
+  }
+
+  .page_ps_elements .w960 {
+    margin-left: 0px !important;
+  }
+
+  .page_ps_elements .textbutton,
+  .page_ps_elements .textbutton2 {
+    font-size: 12px;
+    padding: 12px;
+    margin-top: 10px;
+    width: auto;
+    display: inline-block;
+  }
+
+  ul.ledenlijst {
+    columns: 4;
+    -webkit-columns: 4;
+    -moz-columns: 4;
+  }
 }
 
 @media only screen and (min-width: 767) and (max-width: 900px) {
-    .playbutton {
-        margin-top: -10%;
-        margin-left: 35% !important;
-    }
+  .playbutton {
+    margin-top: -10%;
+    margin-left: 35% !important;
+  }
 }
 
 @media only screen and (max-width: 959px) {
+  .categories-menu {
+    position: relative;
+    display: inline-block;
+    width: 49%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 20px 0;
+    background-color: #fff;
+  }
 
-    .categories-menu {
-        position: relative;
-        display: inline-block;
-        width: 49%;
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        box-sizing: border-box;
-        margin: 20px 0;
-        background-color: #fff;
-    }
+  .categories-menu h5 {
+    float: left;
+    color: #454e5c;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 5px 0;
+    margin-right: 5px;
+  }
 
-    .categories-menu h5 {
-        float: left;
-        color: #454e5c;
-        font-size: 14px;
-        font-weight: normal;
-        padding: 5px 0;
-        margin-right: 5px;
-    }
+  .categories-menu .list {
+    display: none;
+  }
 
-    .categories-menu .list {
-        display: none;
-    }
+  .categories-menu .dropdown {
+    display: block;
+  }
 
-    .categories-menu .dropdown {
-        display: block;
-    }
+  .cours-header {
+    display: inline-block;
+    width: 49%;
+    margin: 20px 0;
+  }
 
-    .cours-header {
-        display: inline-block;
-        width: 49%;
-        margin: 20px 0;
-    }
-
-    .cours-header p {
-        display: none;
-        float: none;
-    }
-
+  .cours-header p {
+    display: none;
+    float: none;
+  }
 }
 
 @media only screen and (max-width: 766px) {
-
-    .imagebar     { display: flex; flex-wrap: nowrap; overflow-x: hidden; width: 100%; padding-bottom: 10px; }
-    .imagebar img { margin-left: -19px; width: 150px; }
-
-    ul.ledenlijst { columns: 2; -webkit-columns: 2; -moz-columns: 2; }
-
-    header {
-        width: 100%;
-    }
-
-    .topmenu-con {
-        width: 100%;
-    }
-
-    .logodv {
-        width: 98%;
-        padding: 10px 0 0 2%;
-    }
-
-    .logodv img {
-        max-width: 70%;
-    }
-
-    header .nav-btn {
-        display: block;
-        z-index: 99;
-    }
-
-    nav {
-        width: 160px;
-        padding: 7px 0 0 0;
-        display: none;
-    }
-
-    .formtrial {
-        width: 100%;
-    }
-
-    .menuco li {
-        width: 100%;
-        padding: 5px 0;
-        border-bottom: 2px solid transparent;
-    }
-
-    .menuco li a {
-        padding-bottom: 10px;
-    }
-
-    .menuco li a:hover {
-        border: none;
-    }
-
-    .menuco li a.active {
-        border-bottom: none;
-    }
-
-    .menuco li:hover {
-        text-decoration: underline;
-    }
-
-    .menuco {
-        background: #446da3;
-        padding-left: 10px;
-    }
-
-    .video-container        { display: block; margin: auto!important; float: none; width: 400px; height: 223px; }
-    .proefperiode-container { margin: auto!important; float: none; width: 400px; height: 223px; }
-    .vimeoiframe            { width: 100%; height: 300px; }
-
-
-    .prijsblok {
-        width: 100%;
-    }
-
-    .prijsblok .textbutton {
-        font-size: 12px;
-        padding: 12px 8px;
-    }
-
-    .prijsblok .textbutton2 {
-        font-size: 12px;
-        padding: 12px 8px;
-    }
-
-    .testimonial {
-        width: 95%;
-    }
-
-    .phone img {
-        display: none;
-    }
-
-    .oordeeltext {
-        display: none;
-    }
-
-    .phone {padding-left: 5px;font-size:14px;}
-    .topmenu-menu{padding-right:10px;}
-    .formleft{width: 315px;}
-    .formstyle aside{width: 257px;  margin: 0px auto;  background: #f4f6f7; border: 2px solid #dfe6ee; border-radius: 8px;/* -webkit-border-radius: 8px; */  -moz-border-radius: 8px;  padding: 22px;   float: left;  display: block;margin-right: 0px; }
-
-
-    .banner section {
-        width: 98%;
-        padding: 10px 1% 0 1%;
-    }
-
-    .banner section .left {
-        width: 100%;
-    }
-
-    .banner section .right {
-        width: 98%;
-        padding: 0 1%;
-    }
-
-    .banner section .left h1 {
-        padding: 10px 0 10px 10px;
-    }
-
-    .banimgdv {
-        width: 100%;
-        padding: 0;
-        text-align: center;
-        padding: 0px;
-        margin: 0 auto;
-    }
-
-    .thumboverlay {
-        display: none;
-    }
-
-    .lightro {
-        width: 100%;
-    }
-
-    .lightro p {
-        padding-bottom: 10px;
-    }
-
-    .banner section .right aside {
-        margin: 0px auto;
-        width: 295px;
-        padding: 10px 5px;
-        float: none;
-    }
-
-    .twocolumn {
-        width: 100%;
-    }
-
-    .twocolumn section {
-        width: 98%;
-        padding-left: 1%;
-        padding-right: 1%;
-    }
-
-    .twocolumn section .left, .twocolumn section .right {
-        width: 100%;
-    }
-
-    .twocolumn section .left aside, .twocolumn section .right aside {
-        width: 100% !important;
-        padding-bottom: 30px;
-    }
-
-    .twocolumn section .right aside {
-        float:  right;
-    }
-
-    .midwhi {
-        width: 100%;
-    }
-
-    .midwhi section {
-        width: 98%;
-        padding-left: 1%;
-        padding-right: 1%;
-    }
-
-    .midwhi section .left {
-        width: 100%;
-    }
-
-    .midwhi section .left aside {
-        width: 100%;
-    }
-
-    .midwhi section .left img {
-        max-width: 100%;
-        float: left;
-        padding: 10px 0;
-    }
-
-    .midwhi section .right aside {
-        width: 100%;
-    }
-
-    .midwhi section .right img {
-        max-width: 100%;
-        float: left;
-        padding: 10px 0;
-    }
-
-    .midwhi section .right {
-        width: 100%;
-        margin: 0px;
-    }
-
-    .midwhi section .cursus-left {
-        width: 100%;
-    }
-
-    .midwhi section .cursus-left img {
-        width: 100%;
-        max-width: 450px;
-        height: auto;
-    }
-
-    .midwhi section .cursus-right {
-        width: 100%;
-        margin: 0px;
-        clear: both;
-    }
-
-    .mid800 {
-        width: 100%;
-    }
-
-    .mid800 section {
-        width: 98%;
-        padding-left: 1%;
-        padding-right: 1%;
-    }
-
-    .blockelements.smaller {
-        width: 98%;
-        padding: 35px 1%;
-    }
-
-    .blockelements {
-        width: 298px;
-        padding: 35px 1%;
-    }
-
-    .klan section {
-        width: 100%;
-    }
-
-    .intfacd {
-        width: 100%;
-    }
-
-    .contest {
-        width: auto;
-    }
-
-    .rightinf {
-        width: 79%;
-    }
-
-    .foot {
-        float: left;
-    }
-
-    .foot footer {
-        width: 98%;
-        padding: 0 1%;
-    }
-
-    .foot footer .left {
-        width: 100%;
-        padding-bottom: 15px;
-    }
-
-    .foot footer .right {
-        width: 100%;
-        float: left;
-    }
-
-    .riboli {
-        float: left;
-    }
-
-    .videoc {
-        width: 96%;
-        padding: 34px 2%;
-    }
-
-    .fashot {
-        width: 100%;
-    }
-
-    .fashot section {
-        width: 98%;
-        padding: 0 1% 20px 1%;
-    }
-
-    .opstell {
-        margin-bottom: 10px;
-    }
-
-    .opstell article {
-        width: 100%;
-        padding: 10px 0;
-    }
-
-    .timnav {
-        width: 100%;
-    }
-
-    .fashot section .left {
-        width: 100%;
-    }
-
-    .fashot section .right {
-        width: 98%;
-        padding: 15px 0 20px;
-    }
-
-    .rigcodva {
-        width: 95%;
-        padding: 15px 2% 10px;
-        margin-top: 10px;
-    }
-
-    .hoocont dl dt {
-        width: 240px;
-    }
-
-    .fashot section .right p {
-        padding: 20px 5px;
-    }
-
-    .hoofd {
-        width: 100%;
-    }
-
-    .hoocont dl dt {
-        width: 190px;
-    }
-
-    .appart {
-        width: 99%;
-        margin-top: 10px;
-    }
-
-    .ventwar article {
-        width: 100%;
-    }
-
-    .conthofu {
-        width: 100%;
-    }
-
-    .rigcont {
-        width: 98%;
-        padding: 0;
-    }
-
-    .fodvare section {
-        width: 100%;
-    }
-
-    .varfin {
-        width: 98%;
-    }
-
-    .ventwar {
-        padding: 0 2%;
-        width: 96%;
-    }
-
-    .fodvare {
-        padding: 0 2%;
-        width: 96%;
-    }
-
-    .fashot {
-        padding-bottom: 10px;
-    }
-
-    .instdc {
-        width: 68%;
-    }
-
-    .banimgdv img {
-        max-width: 68%;
-    }
-
-    .thumboverlay {
-        display: none;
-    }
-
-    /* .playbutton {
+  .imagebar {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+    width: 100%;
+    padding-bottom: 10px;
+  }
+  .imagebar img {
+    margin-left: -19px;
+    width: 150px;
+  }
+
+  ul.ledenlijst {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  .topmenu-con {
+    width: 100%;
+  }
+
+  .logodv {
+    width: 98%;
+    padding: 10px 0 0 2%;
+  }
+
+  .logodv img {
+    max-width: 70%;
+  }
+
+  header .nav-btn {
+    display: block;
+    z-index: 99;
+  }
+
+  nav {
+    width: 160px;
+    padding: 7px 0 0 0;
+    display: none;
+  }
+
+  .formtrial {
+    width: 100%;
+  }
+
+  .menuco li {
+    width: 100%;
+    padding: 5px 0;
+    border-bottom: 2px solid transparent;
+  }
+
+  .menuco li a {
+    padding-bottom: 10px;
+  }
+
+  .menuco li a:hover {
+    border: none;
+  }
+
+  .menuco li a.active {
+    border-bottom: none;
+  }
+
+  .menuco li:hover {
+    text-decoration: underline;
+  }
+
+  .menuco {
+    background: #446da3;
+    padding-left: 10px;
+  }
+
+  .video-container {
+    display: block;
+    margin: auto !important;
+    float: none;
+    width: 400px;
+    height: 223px;
+  }
+  .proefperiode-container {
+    margin: auto !important;
+    float: none;
+    width: 400px;
+    height: 223px;
+  }
+  .vimeoiframe {
+    width: 100%;
+    height: 300px;
+  }
+
+  .prijsblok {
+    width: 100%;
+  }
+
+  .prijsblok .textbutton {
+    font-size: 12px;
+    padding: 12px 8px;
+  }
+
+  .prijsblok .textbutton2 {
+    font-size: 12px;
+    padding: 12px 8px;
+  }
+
+  .testimonial {
+    width: 95%;
+  }
+
+  .phone img {
+    display: none;
+  }
+
+  .oordeeltext {
+    display: none;
+  }
+
+  .phone {
+    padding-left: 5px;
+    font-size: 14px;
+  }
+  .topmenu-menu {
+    padding-right: 10px;
+  }
+  .formleft {
+    width: 315px;
+  }
+  .formstyle aside {
+    width: 257px;
+    margin: 0px auto;
+    background: #f4f6f7;
+    border: 2px solid #dfe6ee;
+    border-radius: 8px; /* -webkit-border-radius: 8px; */
+    -moz-border-radius: 8px;
+    padding: 22px;
+    float: left;
+    display: block;
+    margin-right: 0px;
+  }
+
+  .banner section {
+    width: 98%;
+    padding: 10px 1% 0 1%;
+  }
+
+  .banner section .left {
+    width: 100%;
+  }
+
+  .banner section .right {
+    width: 98%;
+    padding: 0 1%;
+  }
+
+  .banner section .left h1 {
+    padding: 10px 0 10px 10px;
+  }
+
+  .banimgdv {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    padding: 0px;
+    margin: 0 auto;
+  }
+
+  .thumboverlay {
+    display: none;
+  }
+
+  .lightro {
+    width: 100%;
+  }
+
+  .lightro p {
+    padding-bottom: 10px;
+  }
+
+  .banner section .right aside {
+    margin: 0px auto;
+    width: 295px;
+    padding: 10px 5px;
+    float: none;
+  }
+
+  .twocolumn {
+    width: 100%;
+  }
+
+  .twocolumn section {
+    width: 98%;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+
+  .twocolumn section .left,
+  .twocolumn section .right {
+    width: 100%;
+  }
+
+  .twocolumn section .left aside,
+  .twocolumn section .right aside {
+    width: 100% !important;
+    padding-bottom: 30px;
+  }
+
+  .twocolumn section .right aside {
+    float: right;
+  }
+
+  .midwhi {
+    width: 100%;
+  }
+
+  .midwhi section {
+    width: 98%;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+
+  .midwhi section .left {
+    width: 100%;
+  }
+
+  .midwhi section .left aside {
+    width: 100%;
+  }
+
+  .midwhi section .left img {
+    max-width: 100%;
+    float: left;
+    padding: 10px 0;
+  }
+
+  .midwhi section .right aside {
+    width: 100%;
+  }
+
+  .midwhi section .right img {
+    max-width: 100%;
+    float: left;
+    padding: 10px 0;
+  }
+
+  .midwhi section .right {
+    width: 100%;
+    margin: 0px;
+  }
+
+  .midwhi section .cursus-left {
+    width: 100%;
+  }
+
+  .midwhi section .cursus-left img {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+  }
+
+  .midwhi section .cursus-right {
+    width: 100%;
+    margin: 0px;
+    clear: both;
+  }
+
+  .mid800 {
+    width: 100%;
+  }
+
+  .mid800 section {
+    width: 98%;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+
+  .blockelements.smaller {
+    width: 98%;
+    padding: 35px 1%;
+  }
+
+  .blockelements {
+    width: 298px;
+    padding: 35px 1%;
+  }
+
+  .klan section {
+    width: 100%;
+  }
+
+  .intfacd {
+    width: 100%;
+  }
+
+  .contest {
+    width: auto;
+  }
+
+  .rightinf {
+    width: 79%;
+  }
+
+  .foot {
+    float: left;
+  }
+
+  .foot footer {
+    width: 98%;
+    padding: 0 1%;
+  }
+
+  .foot footer .left {
+    width: 100%;
+    padding-bottom: 15px;
+  }
+
+  .foot footer .right {
+    width: 100%;
+    float: left;
+  }
+
+  .riboli {
+    float: left;
+  }
+
+  .videoc {
+    width: 96%;
+    padding: 34px 2%;
+  }
+
+  .fashot {
+    width: 100%;
+  }
+
+  .fashot section {
+    width: 98%;
+    padding: 0 1% 20px 1%;
+  }
+
+  .opstell {
+    margin-bottom: 10px;
+  }
+
+  .opstell article {
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .timnav {
+    width: 100%;
+  }
+
+  .fashot section .left {
+    width: 100%;
+  }
+
+  .fashot section .right {
+    width: 98%;
+    padding: 15px 0 20px;
+  }
+
+  .rigcodva {
+    width: 95%;
+    padding: 15px 2% 10px;
+    margin-top: 10px;
+  }
+
+  .hoocont dl dt {
+    width: 240px;
+  }
+
+  .fashot section .right p {
+    padding: 20px 5px;
+  }
+
+  .hoofd {
+    width: 100%;
+  }
+
+  .hoocont dl dt {
+    width: 190px;
+  }
+
+  .appart {
+    width: 99%;
+    margin-top: 10px;
+  }
+
+  .ventwar article {
+    width: 100%;
+  }
+
+  .conthofu {
+    width: 100%;
+  }
+
+  .rigcont {
+    width: 98%;
+    padding: 0;
+  }
+
+  .fodvare section {
+    width: 100%;
+  }
+
+  .varfin {
+    width: 98%;
+  }
+
+  .ventwar {
+    padding: 0 2%;
+    width: 96%;
+  }
+
+  .fodvare {
+    padding: 0 2%;
+    width: 96%;
+  }
+
+  .fashot {
+    padding-bottom: 10px;
+  }
+
+  .instdc {
+    width: 68%;
+  }
+
+  .banimgdv img {
+    max-width: 68%;
+  }
+
+  .thumboverlay {
+    display: none;
+  }
+
+  /* .playbutton {
         width: 61px;
         height: 61px;
     } */
 
-    .limitedwidth {
-        width: 100%
-    }
+  .limitedwidth {
+    width: 100%;
+  }
 
-    .hideonphone {
-        display: none;
-    }
+  .hideonphone {
+    display: none;
+  }
 
-    /* Elements pagina */
-    .page_ps_elements .banner section .left {
-        float: none;
-        width: auto;
-    }
+  /* Elements pagina */
+  .page_ps_elements .banner section .left {
+    float: none;
+    width: auto;
+  }
 
-    .page_ps_elements .banner section .left h1 {
-        padding: 10px 0 20px 10px;
-    }
+  .page_ps_elements .banner section .left h1 {
+    padding: 10px 0 20px 10px;
+  }
 
-    .page_ps_elements .banner section .left p {
-        padding-left: 0 !important;
-        text-align: center;
-    }
+  .page_ps_elements .banner section .left p {
+    padding-left: 0 !important;
+    text-align: center;
+  }
 
-    .page_ps_elements .banner .vidright {
-        width: 500px !important;
-        margin: 10px auto !important;
-        float: none !important;
-    }
+  .page_ps_elements .banner .vidright {
+    width: 500px !important;
+    margin: 10px auto !important;
+    float: none !important;
+  }
 
-    .page_ps_elements .banner .checklist {
-        clear: both;
-        margin-top: 40px;
-        float: left;
-        color: #454e5c;
-    }
+  .page_ps_elements .banner .checklist {
+    clear: both;
+    margin-top: 40px;
+    float: left;
+    color: #454e5c;
+  }
 
-    .page_ps_elements .w940, .page_ps_elements .w960 {
-        width: 100%;
-    }
+  .page_ps_elements .w940,
+  .page_ps_elements .w960 {
+    width: 100%;
+  }
 
-    .page_ps_elements .w960 {
-        margin-left: 0px !important;
-    }
+  .page_ps_elements .w960 {
+    margin-left: 0px !important;
+  }
 
-    .page_ps_elements .textbutton, .page_ps_elements .textbutton2 {
-        font-size: 12px;
-        padding: 12px;
-        margin-top: 10px;
-        width: auto;
-        display: inline-block;
-    }
+  .page_ps_elements .textbutton,
+  .page_ps_elements .textbutton2 {
+    font-size: 12px;
+    padding: 12px;
+    margin-top: 10px;
+    width: auto;
+    display: inline-block;
+  }
 
-    .searchbox-custom {
-        float: none;
-        margin-left: 12px;
-        margin-right: 12px !important;
-        margin-bottom: 80px;
+  .searchbox-custom {
+    float: none;
+    margin-left: 12px;
+    margin-right: 12px !important;
+    margin-bottom: 80px;
+  }
 
-    }
+  .searchbox-custom,
+  .fix-samll,
+  .categories-menu,
+  .cours-header {
+    clear: both;
+    width: 98%;
+  }
 
-    .searchbox-custom,
-    .fix-samll,
-    .categories-menu,
-    .cours-header {
-        clear: both;
-        width: 98%;
-    }
+  .fix-samll h1,
+  .categories-menu,
+  .cours-header {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 20px !important;
+  }
 
-    .fix-samll h1,
-    .categories-menu,
-    .cours-header {
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        box-sizing: border-box;
-        padding-left: 20px !important;
-    }
-
-    .cours-header div {
-        float: none !important;
-    }
-
+  .cours-header div {
+    float: none !important;
+  }
 }
 
-@media only screen and        (min-width: 320px) and (max-width: 480px) {
-    .blockelements aside {
-        margin-bottom: 20px;
-        padding: 12px 2% 20px;
-    }
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .blockelements aside {
+    margin-bottom: 20px;
+    padding: 12px 2% 20px;
+  }
 
-    .blockelements aside img { /*width:100%;*/
-    }
+  .blockelements aside img {
+    /*width:100%;*/
+  }
 
-    /* .blockelements aside .progressBar {
+  /* .blockelements aside .progressBar {
         width: 278px;
     } */
 
-    .playbutton {
-        margin-left: 96px;
-    } 
+  .playbutton {
+    margin-left: 96px;
+  }
 
-    .downarro {
-        display: none;
-    }
+  .downarro {
+    display: none;
+  }
 
-    .leftintf {
-        width: 100%;
-        text-align: center;
-    }
+  .leftintf {
+    width: 100%;
+    text-align: center;
+  }
 
-    .rightinf {
-        width: 96%;
-        padding: 0 2%;
-    }
+  .rightinf {
+    width: 96%;
+    padding: 0 2%;
+  }
 
-    .video-container        { display: block; margin: auto!important; float: none; width: 300px; height: 223px; }
-    .proefperiode-container { margin: auto!important; float: none; width: 300px; height: 223px; }
-    .vimeoiframe            { width: 100%; height: 223px; }
+  .video-container {
+    display: block;
+    margin: auto !important;
+    float: none;
+    width: 300px;
+    height: 223px;
+  }
+  .proefperiode-container {
+    margin: auto !important;
+    float: none;
+    width: 300px;
+    height: 223px;
+  }
+  .vimeoiframe {
+    width: 100%;
+    height: 223px;
+  }
 
-    ul.ledenlijst { columns: 1; -webkit-columns: 1; -moz-columns: 1; }
-
+  ul.ledenlijst {
+    columns: 1;
+    -webkit-columns: 1;
+    -moz-columns: 1;
+  }
 }
 
 @media only screen and (min-width: 480px) {
-    .leftintf img {
-        margin: 0px auto;
-        width: 100px;
-    }
+  .leftintf img {
+    margin: 0px auto;
+    width: 100px;
+  }
 
-    .playbutton {
-        margin-left: 96px;
-    } 
-
+  .playbutton {
+    margin-left: 96px;
+  }
 }
 
-
-
 @media (max-width: 767px) {
-  .categorieen ul li  {width:100%; text-align:left;}
-  .categorieen {width:100%;}
+  .categorieen ul li {
+    width: 100%;
+    text-align: left;
   }
-  
+  .categorieen {
+    width: 100%;
+  }
+}
+
 @media (min-width: 768px) and (max-width: 991px) {
-  .categorieen ul li  {width:33%;}
-  .categorieen ul li ul li  {width:100%;}
-  .categorieen {width:100%;}
+  .categorieen ul li {
+    width: 33%;
   }
+  .categorieen ul li ul li {
+    width: 100%;
+  }
+  .categorieen {
+    width: 100%;
+  }
+}
 
 @media (min-width: 992px) and (max-width: 1199px) {
-  .categorieen ul li  {width:33%;}
-  .categorieen ul li ul li  {width:100%;}
-  .categorieen {width:100%;}
+  .categorieen ul li {
+    width: 33%;
   }
-  
-@media (min-width: 1200px) and (max-width: 1290px){
-  .categorieen ul li  {width:24%;}
-  .categorieen {width:100%;}
-  .categorieen ul li ul li  {width:100%;}
+  .categorieen ul li ul li {
+    width: 100%;
   }
-  
-@media (min-width: 1290px){
-  .categorieen ul li  {width:24%;}
-  .categorieen ul li ul li  {width:100%;}
+  .categorieen {
+    width: 100%;
   }
+}
 
-@media (min-width: 960px) and (max-width:999px){
-  .testimonial{width:100%;}
+@media (min-width: 1200px) and (max-width: 1290px) {
+  .categorieen ul li {
+    width: 24%;
+  }
+  .categorieen {
+    width: 100%;
+  }
+  .categorieen ul li ul li {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1290px) {
+  .categorieen ul li {
+    width: 24%;
+  }
+  .categorieen ul li ul li {
+    width: 100%;
+  }
+}
+
+@media (min-width: 960px) and (max-width: 999px) {
+  .testimonial {
+    width: 100%;
+  }
 }
