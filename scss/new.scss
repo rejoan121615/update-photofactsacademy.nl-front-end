@@ -13,6 +13,7 @@
   --c-E9F2F5: #e9f2f5;
   --c-96DB33: #96db33;
   --c-3F679A: #3f679a;
+  --c-C7C7C7: #c7c7c7;
 }
 
 .sidebar {
@@ -239,6 +240,27 @@ button {
   font-weight: 700;
 }
 
+.group-types-info {
+  display: flex;
+  align-items: center;
+  color: var(--c-454E5C);
+
+  .group-or-page-type {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-right: 4px;
+    border-right: 2px solid var(--c-C7C7C7);
+    p {
+      font-weight: 400;
+    }
+  }
+  .group-or-page-member {
+    padding-left: 4px;
+    font-weight: 600 !important;
+  }
+}
+
 .content-category-wrap {
   display: flex;
   flex-flow: row wrap;
@@ -249,7 +271,7 @@ button {
     padding: 24px 16px;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 20px;
 
     p {
       font-size: 14px;
