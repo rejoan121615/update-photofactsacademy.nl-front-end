@@ -737,6 +737,10 @@
     display: none;
     float: none;
   }
+
+  .send-message-button {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 766px) {
