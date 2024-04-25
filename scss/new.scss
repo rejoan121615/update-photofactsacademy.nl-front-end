@@ -879,7 +879,7 @@ button {
   display: flex;
   flex-direction: column;
   gap: 15px;
-  
+
   .post-top {
     display: flex;
     justify-content: flex-start;
@@ -920,6 +920,100 @@ button {
   }
   .post-details {
     padding-left: calc(56px + 12px);
+  }
+  .post-content {
+      color: var(--c-454E5C);
+      font-size: 14px;
+      line-height: 20px;
+      font-weight: 400;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+
+      .post-images {
+        width: 100%;
+        display: flex;
+        gap: 10px;
+
+        &.single-image {
+          max-width: 450px;
+        }
+
+        .post-image {
+          width: 100%;
+          flex: 1;
+          position: relative;
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+
+          .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(69, 78, 92, 0.3);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+              width: 60px;
+              height: 60px;
+              object-fit: contain;
+            }
+            h5 {
+              font-size: 40px;
+              font-weight: 700;
+              line-height: 56px;
+              text-align: center;
+              color: #ffffff;
+            }
+          }
+        }
+      }
+
+      .post-action-buttons {
+        display: flex;
+        gap: 16px;
+
+        .post-cta {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 4px;
+          .post-cta-button {
+            background: none;
+            border: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+              width: 20px;
+              height: 20px;
+              object-fit: contain;
+            }
+          }
+          span {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            color: var(--c-454E5C);
+          }
+        }
+        .post-reply-button {
+          color: var(--c-454E5C);
+          font-size: 14px;
+          line-height: 20px;
+          font-weight: 600;
+          background: none;
+        }
+      }
   }
   .post-comment {
   }
