@@ -223,6 +223,15 @@ button {
     opacity: 0.4;
   }
 }
+.button.error {
+  background: var(--c-D53232);
+  &:hover {
+    opacity: 0.8;
+  }
+  &:disabled {
+    opacity: 0.4;
+  }
+}
 .button-text {
   text-transform: capitalize;
   padding: 8px 20px;
@@ -254,6 +263,10 @@ button {
     height: 24px;
     object-fit: contain;
   }
+}
+
+.semi-bold {
+  font-weight: 600;
 }
 
 .main-heading {
