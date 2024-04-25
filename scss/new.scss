@@ -13,18 +13,86 @@
   --c-E9F2F5: #e9f2f5;
   --c-96DB33: #96db33;
   --c-3F679A: #3f679a;
-  --f-sansLight: 'OpenSansLight';
-  --f-sansRegular: 'OpenSansRegular';
-  --f-sansSemiBold: 'OpenSansSemibold';
-  --f-sansBold: 'OpenSansBold';
-  --f-sansExtraBold: 'OpenSansExtrabold';
+  --f-sansLight: "OpenSansLight";
+  --f-sansRegular: "OpenSansRegular";
+  --f-sansSemiBold: "OpenSansSemibold";
+  --f-sansBold: "OpenSansBold";
+  --f-sansExtraBold: "OpenSansExtrabold";
 }
+
+$screen-xl: 1290px;
+$screen-lg: 960px;
+$screen-md: 768px;
+$screen-sm: 480px;
+$screen-xs: 320px;
+
+// mixing
+@mixin screen($width) {
+  @media only screen and (min-width: $width) {
+    @content;
+  }
+}
+
+// style
 
 .sidebar {
   background: #ffffff;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+
+  @include screen($screen-lg) {
+    display: block;
+    width: 260px;
+    max-width: 260px;
+    position: initial;
+  }
+
+  .sidebar-top-bar {
+    display: flex;
+
+    // top search bar
+    .search-bar {
+      position: relative;
+      flex: 1;
+      .search-input {
+        width: 100%;
+        box-shadow: 2px 2px 4px 0px rgba(223, 230, 238, 0.5) inset;
+        border: 1px solid rgba(223, 230, 238, 1);
+        background-color: #fff;
+        font-family: var(--f-sansRegular);
+        // width: 230px;
+        height: 36px;
+        border-radius: 4px;
+        padding-left: 40px;
+        color: #454e5c;
+
+        &:focus-visible {
+          outline: none;
+        }
+      }
+
+      .search-btn {
+        content: "";
+        background: transparent
+          url("https://cdn.builder.io/api/v1/image/assets/TEMP/ba2935885226ead22bab443b2ecb2e62ebf440e337d3ba8cbf0c70a40c7bd9ee?apiKey=b40f28ee24d84e8da374b97c2c3c6417&")
+          no-repeat center center;
+        background-size: 22px;
+        position: absolute;
+        left: 2px;
+        bottom: 0px;
+        width: 36px;
+        height: 100%;
+        border: none;
+        cursor: pointer;
+      }
+    }
+  }
+
   .component {
     border-bottom: 1px solid var(--c-E8E8E8);
-    padding-top: 16px;
+    // padding-top: 16px;
     padding-bottom: 16px;
   }
 
@@ -56,6 +124,41 @@
   }
 }
 
+.sidebar-open-btn,
+.sidebar-close-btn {
+  background-color: transparent;
+
+  img {
+    width: 18px;
+  }
+}
+
+.sidebar-open-btn {
+  @include screen($screen-lg) {
+    display: none;
+  }
+  position: fixed;
+  display: block;
+  top: calc(50vh - 20px);
+  background-color: white;
+  padding: 10px 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  img {
+    width: 22px;
+  }
+}
+
+.sidebar-close-btn {
+  margin-left: 10px;
+  @include screen($screen-lg) {
+    display: none;
+  }
+}
+
+
+
+
 .component-label,
 .sidebar .component-label,
 .empty-text,
@@ -85,6 +188,12 @@
   padding: 24px 16px;
   margin-top: 0;
   margin-bottom: 0;
+  transform: translateX(-100%);
+  transition: transform 0.5s;
+  // for large screen 
+  @include screen($screen-lg) {
+    transform: translateX(0);
+  }
   * {
     font-family: "OpenSansRegular";
     font-size: 14px;
@@ -94,40 +203,12 @@
   }
 }
 
-// top search bar
-.search-bar {
-  position: relative;
-
-  .search-input {
-    width: 100%;
-    box-shadow: 2px 2px 4px 0px rgba(223, 230, 238, 0.5) inset;
-    border: 1px solid rgba(223, 230, 238, 1);
-    background-color: #fff;
-    font-family: "OpenSansRegular";
-    // width: 230px;
-    height: 36px;
-    border-radius: 4px;
-    padding-left: 40px;
-    color: #454e5c;
-
-    &:focus-visible {
-      outline: none;
-    }
+.content-category-wrap.sidebar-show {
+  .sidebar {
+    transform: translateX(0%);   
   }
-
-  .search-btn {
-    content: "";
-    background: transparent
-      url("https://cdn.builder.io/api/v1/image/assets/TEMP/ba2935885226ead22bab443b2ecb2e62ebf440e337d3ba8cbf0c70a40c7bd9ee?apiKey=b40f28ee24d84e8da374b97c2c3c6417&")
-      no-repeat center center;
-    background-size: 22px;
-    position: absolute;
-    left: 5px;
-    bottom: 0px;
-    width: 36px;
-    height: 100%;
-    border: none;
-    cursor: pointer;
+  .sidebar-open-btn {
+    display: none;
   }
 }
 
@@ -248,6 +329,7 @@ button {
   display: flex;
   flex-flow: row wrap;
   justify-content: stretch;
+  min-height: 100vh;
 
   .content-box {
     flex: 1;
@@ -587,6 +669,7 @@ button {
     }
   }
 }
+
 
 #popular-courses {
   padding: 50px 0;
