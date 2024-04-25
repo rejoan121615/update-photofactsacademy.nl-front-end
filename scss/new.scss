@@ -1208,5 +1208,30 @@ button {
     padding: 12px;
     border-radius: 4px;
     background: #ffffff;
+
+    .heading {
+      width: 100%;
+      padding: 15px;
+      background: var(--c-4C7CBA);
+      color: #ffffff;
+      text-align: center;
+      font-size: 20px;
+      line-height: 28px;
+      font-weight: 600;
+      position: relative;
+
+      button.close-icon {
+        position: absolute;
+        top: 50%;
+        right: 15px;
+        transform: translateY(-50%);
+        background: none;
+        border: none;
+        padding: 0;
+        width: 20px;
+        height: 20px;
+        object-fit: contain;
+      }
+    }
   }
 }
