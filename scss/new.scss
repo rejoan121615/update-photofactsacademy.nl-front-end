@@ -1209,6 +1209,42 @@ button {
     }
   }
 }
+.comment-reply-block {
+  width: 100%;
+  padding: 8px 12px;
+  background: var(--c-f6f6f6);
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: var(--c-454E5C);
+
+  .comment-details {
+    display: flex;
+    gap: 8px;
+  }
+
+  .user-avatar {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 2px solid var(--c-DFE6EE);
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  button{
+    background: none;
+  }
+}
 
 #popular-courses {
   padding: 50px 0;
