@@ -1403,6 +1403,9 @@ button {
       background: #ffffff;
       box-shadow: 0 2px 8px rgba(199, 199, 199, 0.4);
       border-radius: 4px;
+      max-height: 250px;
+      overflow-x: hidden;
+      overflow-y: auto;
 
       p.not-found {
         color: var(--c-454E5C);
