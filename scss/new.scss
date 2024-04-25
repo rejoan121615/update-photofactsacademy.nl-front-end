@@ -611,6 +611,21 @@ button {
               flex-shrink: 0;
               background: var(--c-f6f6f6);
 
+              .overlay {
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                top: 0;
+                left: 0;
+                display: grid;
+                place-items: center;
+                img {
+                  width: 60px;
+                  height: 60px;
+                  object-fit: contain;
+                }
+              }
+
               .custom-image {
                 position: absolute;
                 width: 100%;
