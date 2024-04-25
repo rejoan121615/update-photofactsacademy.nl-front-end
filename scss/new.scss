@@ -20,7 +20,6 @@
   --f-sansBold: "OpenSansBold";
   --f-sansExtraBold: "OpenSansExtrabold";
 }
-
 .sidebar {
   background: #ffffff;
   .component {
@@ -278,6 +277,7 @@ button {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    overflow-x: hidden;
 
     p {
       font-size: 14px;
@@ -504,6 +504,7 @@ button {
       }
     }
     .message-input-wrapper {
+      overflow-x: hidden;
       padding: 10px;
       border: 1px solid var(--c-E8E8E8);
       border-radius: 8px;
@@ -528,6 +529,7 @@ button {
         justify-content: start;
         align-items: start;
         gap: 4px;
+        overflow: hidden;
 
         .message-input-avatar {
           width: 40px;
@@ -538,7 +540,9 @@ button {
           border: 2px solid var(--c-DFE6EE);
         }
         .message-input-box {
-          width: 100%;
+          width: calc(100% - (40px + 4px));
+          display: flex;
+          flex-direction: column;
           .message-input {
             width: 100%;
             height: 40px;
@@ -555,23 +559,30 @@ button {
           }
 
           .input-images {
+            width: 100%;
             display: flex;
             gap: 10px;
+            overflow: hidden;
+            overflow-x: auto;
 
             .input-image {
               position: relative;
               width: 205px;
               height: 240px;
+              flex-grow: 0;
+              flex-shrink: 0;
               background: var(--c-f6f6f6);
 
               .custom-image {
                 position: absolute;
                 width: 100%;
                 height: 100%;
+                flex-grow: 0;
+                flex-shrink: 0;
                 display: grid;
                 place-items: center;
 
-                img{
+                img {
                   width: 56px;
                   height: auto;
                 }
