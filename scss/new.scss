@@ -1277,16 +1277,59 @@ button {
       left: 0;
       top: 60px;
       width: 100%;
-      padding: 8px;
+      padding: 8px 0;
       background: #ffffff;
       box-shadow: 0 2px 8px rgba(199, 199, 199, 0.4);
       border-radius: 4px;
 
-      p.not-found{
+      .search-user-list {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+
+        .search-user {
+          padding: 12px;
+          width: 100%;
+          background: #ffffff;
+          color: var(--c-454E5C);
+          font-size: 14px;
+          line-height: 20px;
+          font-weight: 400;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          cursor: pointer;
+
+          &:hover {
+            background: var(--c-f6f6f6);
+          }
+
+          .user-avatar {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            border: 2px solid var(--c-DFE6EE);
+          }
+          .user-info{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+            span{
+              color: var(--c-888888);
+              font-size: 14px;
+              line-height: 20px;
+              font-weight: 400;
+            }
+          }
+        }
+      }
+
+      p.not-found {
         color: var(--c-454E5C);
         font-size: 12px;
         line-height: 16px;
         font-weight: 400;
+        padding: 8px 12px;
       }
     }
   }
