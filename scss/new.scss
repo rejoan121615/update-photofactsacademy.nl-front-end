@@ -749,6 +749,17 @@ button {
     }
     .post-details {
       padding-left: calc(40px + 12px);
+      position: relative;
+
+      &.timeline::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: calc(40px / 2);
+        width: 2px;
+        height: 100%;
+        background: var(--c-DFE6EE);
+      }
     }
     .post-content {
       color: var(--c-454E5C);
@@ -961,6 +972,17 @@ button {
   }
   .post-details {
     padding-left: calc(56px + 12px);
+    position: relative;
+
+    &.timeline::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: calc(56px / 2);
+      width: 2px;
+      height: 100%;
+      background: var(--c-DFE6EE);
+    }
   }
   .post-content {
     color: var(--c-454E5C);
