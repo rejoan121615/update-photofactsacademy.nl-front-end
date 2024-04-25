@@ -32,16 +32,30 @@
           </button>
         </div>
         <form action="">
+          <label for="video-file" class="upload-video">
+            <img
+              src="./images/Photofact Academy Update/Photo Facts/Icon/upload.png"
+              alt=""
+            />
+            <h5>Browse video or drag and drop video here</h5>
+            <p>Supported format: .mp4 | Max file size: 100MB</p>
+          </label>
+          <input id="video-file" type="file" hidden />
+          
           <div class="input-with-label-wrapper">
-            <label for="group-name">Search video on Photofacts Academy</label>
+            <label for="search-text">Search video on Photofacts Academy</label>
             <div class="input-wrapper">
-              <input id="group-name" type="text" placeholder="Search video" />
+              <input id="search-text" type="text" placeholder="Search video" />
             </div>
           </div>
           <div class="input-with-label-wrapper">
-            <label for="group-name">Video URL</label>
+            <label for="video-url">Video URL</label>
             <div class="input-wrapper">
-              <input id="group-name" type="text" placeholder="Paste a video URL (eg: https://www.youtube.com/watch?asdad121)" />
+              <input
+                id="video-url"
+                type="text"
+                placeholder="Paste a video URL (eg: https://www.youtube.com/watch?asdad121)"
+              />
             </div>
           </div>
           <div class="form-cta">

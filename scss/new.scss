@@ -1550,6 +1550,36 @@ button {
     }
   }
 }
+.upload-video {
+  width: 100%;
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: var(--c-f6f6f6);
+  cursor: pointer;
+  
+  img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+  }
+  h5 {
+    color: var(--c-454E5C);
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  p {
+    color: var(--c-888888);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
 
 .selected-people {
 }
