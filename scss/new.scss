@@ -732,11 +732,18 @@ button {
         flex-direction: column;
         gap: 4px;
 
-        h4 {
+        h4,
+        .post-name-info {
           font-size: 14px;
           line-height: 20px;
           font-weight: 600;
           color: var(--c-454E5C);
+          span {
+            color: var(--c-888888);
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: 400;
+          }
         }
         p {
           color: var(--c-888888);
