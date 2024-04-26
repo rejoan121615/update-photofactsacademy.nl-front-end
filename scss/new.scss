@@ -118,10 +118,8 @@ $screen-xs: 320px;
         &:last-child {
           margin-bottom: 0px;
         }
-        &.active {
-          color: #83c129;
-        }
       }
+      
     }
   }
 }
@@ -242,6 +240,32 @@ $screen-xs: 320px;
 
   .user-navbar {
     margin-top: 16px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    li {
+      display: block;
+      &.active {
+        a {
+          color: #83c129;
+        }
+      }
+      &.unseen {
+        position: relative;
+
+        &::after {
+          content: '';
+          width: 6px;
+          height: 6px;
+          border-radius: 50%;
+          background-color: red;
+          position: absolute;
+          right: -10px;
+          top: 5px;
+        }
+        
+      }
+    }
   }
 }
 
