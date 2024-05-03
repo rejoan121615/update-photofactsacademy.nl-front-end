@@ -43,12 +43,16 @@ $screen-xs: 320px;
   top: 0;
   width: 100%;
   z-index: 500;
+  height: 100vh;
+  overflow-y: auto;
 
   @include screen($screen-lg) {
     display: block;
     width: 260px;
     max-width: 260px;
+    height: initial;
     position: initial;
+    overflow-y: initial;
   }
 
   .sidebar-top-bar {
@@ -426,6 +430,9 @@ button {
     gap: 20px;
     overflow-x: hidden;
     min-height: 100vh;
+    @include screen($screen-lg) {
+      padding: 20px 24px;
+    }
 
     p {
       font-size: 14px;
